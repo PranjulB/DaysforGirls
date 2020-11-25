@@ -42,23 +42,23 @@ nav ul .nav-item:hover{
 
 nav ul .nav-item a {
   color: rgb(0, 0, 0);
-  transform: translateY(3px);
+  transform: translateY(2px);
   transition: .2s linear;
 }
 
 nav ul .nav-item i {
-  transform: translateY(3px);
+  transform: translateY(2px);
   font-size: 30px;
   transition: .2s linear;
 }
 
 nav ul .nav-item:hover i {
-  transform: translateY(-3px) scale(.9);
+  transform: translateY(-2px) scale(.9);
 }
 
 nav ul li:hover a {
  color:#fff;
- transform: translateY(-3px)
+ transform: translateY(-2px)
 
 }
 
@@ -111,7 +111,7 @@ nav ul li:hover a {
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 100%;
+  font-size: 150%;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -161,3 +161,6 @@ nav ul li:hover a {
   from {opacity: .4} 
   to {opacity: 1}
 }
+
+/* SLIDER
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
