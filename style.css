@@ -1,2 +1,13 @@
 /* Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+nav {
+  background: #42BFDD;
+  color: #fff;
+  width: 360px;
+  height: 60px;
+  border-radius: 5px;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 0 10px #BBE6E4;
+
+}
