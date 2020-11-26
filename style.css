@@ -188,7 +188,7 @@ nav ul li:hover a {
 }
 
 .imagelinks {
-   opacity: 0.6;
+   opacity: 0.4;
 }
 
 .outerred{
@@ -196,6 +196,7 @@ nav ul li:hover a {
   background: #80425a;
   margin: 1.5%;
   overflow: hidden;
+  border-radius: 5px;
 }
 
 .outerblue{
@@ -214,3 +215,14 @@ nav ul li:hover a {
   top: 30%;
   left: 30%;
 }
+/* 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+footer {
+	grid-area: footer;
+	background: #607D8B;
+	color: white;
+	padding: 4rem;
+	text-align: center;
+}
+
+
