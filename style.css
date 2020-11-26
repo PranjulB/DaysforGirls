@@ -4,11 +4,14 @@
   box-sizing: border-box;
 }
 
+.background{
+  margin: 0 10%;
+}
 
 /* HEADER
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a{
-  text-decoration: none;
+  text-decoration: none;  
 }
 
 /* Navigation
@@ -162,6 +165,41 @@ nav ul li:hover a {
   from {opacity: .4} 
   to {opacity: 1}
 }
-
-/* SLIDER
+/* 
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 30%;
+  margin:1.5%;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.imageborder{
+  border-style: solid;
+  border-color: #FFB923;
+}
+
+.outerred{
+  position: relative;
+  background: red;
+  margin: 1.5%;
+  overflow: hidden;
+}
+
+.inner {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
+.imagelinks {
+   opacity: 0.6;
+}
