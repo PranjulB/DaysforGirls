@@ -187,19 +187,30 @@ nav ul li:hover a {
   border-color: #FFB923;
 }
 
+.imagelinks {
+   opacity: 0.6;
+}
+
 .outerred{
   position: relative;
-  background: red;
+  background: #80425a;
   margin: 1.5%;
   overflow: hidden;
+}
+
+.outerblue{
+  position: relative;
+  background: #5d989e;
+  margin: 1.5%;
+}
+.outeryellow{
+  position: relative;
+  background: #FFB923;
+  margin: 1.5%;
 }
 
 .inner {
   position: absolute;
   top: 30%;
   left: 30%;
-}
-
-.imagelinks {
-   opacity: 0.6;
 }
