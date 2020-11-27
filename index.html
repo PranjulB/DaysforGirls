@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial=1.0">
     <title>repl.it</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -13,6 +13,7 @@
     <header>
 <!-- logo -->
       <nav>
+        <img id="nav-logo" src="images/DFGlogo.png" alt="DFg Logo">
 <!-- menu icons -->
        <ul>
         <li class="nav-item"><a href="index.html" >Home</a></li>
@@ -25,6 +26,7 @@
 
         <li class="nav-item"><a>Contact Us</a></li>
 
+        <li><input type="text"></li>
        </ul>
       </nav>
     </header>
@@ -96,7 +98,7 @@
       <p><center>Days for Girls empowers menstruators of all ages and backgrounds through good menstrual hygiene practices by breaking the silence about menstruation, to spread awareness about menstrual hygiene, mobilizing volunteers, usage and disposal of menstrual products and innovating sustainable solutions that shatter stigmas and limitations for women and girls. And to provide products to as many individuals as possible.<br><strong>Every Girl. Everywhere. Period.</strong></center></p>
 
       <div class="row">
-        <div class="outerred" class="column">
+        <div class="outer red" class="column">
         <img class="imagelinks" src="images/IL1.jpg" alt="support women">
         <div class="inner">
         <h6>Support &<br>Empower Girls</h6>
@@ -104,7 +106,7 @@
         </div>
         </div>
 
-        <div class="outerblue" class="column">
+        <div class="outer blue" class="column">
         <img class="imagelinks" src="images/IL2.jpg" alt="women reached">
         <div class="inner">
         <h6>1.7 Million Women<br>& Girls Reached</h6>
@@ -112,7 +114,7 @@
         </div>
         </div>
 
-        <div class="outeryellow" class="column">
+        <div class="outer yellow" class="column">
         <img class="imagelinks" src="images/IL3.jpg" alt="leadership">
         <div class="inner">
         <h6>Local<br>Leadership</h6>
@@ -123,7 +125,7 @@
 
        <div class="row">
 
-        <div class="outerblue" class="column">
+        <div class="outer blue" class="column">
         <img class="imagelinks" src="images/IL5.jpg" alt="happy women">
         <div class="inner">
         <h6>Vital<br>Conversation</h6>
@@ -131,7 +133,7 @@
         </div>
         </div>
 
-        <div class="outeryellow" class="column">
+        <div class="outer yellow" class="column">
         <img class="imagelinks" src="images/IL6.jpg" alt="women reached">
         <div class="inner">
         <h6>Distribute Kids</h6>
@@ -139,7 +141,7 @@
         </div>
         </div>
 
-        <div class="outerred" class="column">
+        <div class="outer red" class="column">
         <img class="imagelinks" src="images/IL4.jpg" alt="support women">
         <div class="inner">
         <h6>Volunteer</h6>
@@ -150,12 +152,19 @@
       
        
 
-
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
   </body>
   </div>
-
+<button onclick="donateFunction()" id="donateButton" title="Donate Now">Donate Now</button>
   <footer>
+    <div class="social-btns">
+     <a class="btn facebook" href="#"><i class="fa fa-facebook"></i></a>
+     <a class="btn instagram" href="#"><i class="fa fa-instagram"></i></a>
+     <a class="btn google" href="#"><i class="fa fa-google"></i></a>
+     <a class="btn twitter" href="#"><i class="fa fa-twitter"></i></a>
+    </div>
+
     <p>CONTACT DfG Australia:
       Australia@daysforgirls.org
       Call: +61 484 332397
