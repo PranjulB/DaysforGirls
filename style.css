@@ -20,6 +20,11 @@ ul{
   list-style-type: none;
 }
 
+h5 {
+  text-align: center;
+  color: #fff;
+}
+
 /* HEADER
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Navigation
@@ -203,7 +208,7 @@ nav ul li:hover a {
   border-color: #FFB923;
 }
 
-/* IMAGELINKS
+/* Imagelinks
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .imagelinks {
    opacity: 0.4;
@@ -242,6 +247,7 @@ nav ul li:hover a {
 .inner img {
   width: 30%;
   height: 50%;
+  margin: 0 35%;
 }
 
 
@@ -255,7 +261,74 @@ h5 {
   color: #fff;
 }
 
-/* education
+
+/* slider
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.supporterslider {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+}
+
+.slick-dots {
+  text-align: center;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+.slick-dots li {
+  display: inline-block;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.slick-dots li.slick-active button {
+  background-color: #FFB923;
+}
+.slick-dots li button {
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  background-color: #999;
+  border: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.slick-dots li :hover {
+  background-color: #FFB923;
+}
+
+/* Custom Arrow */
+.prev2 {
+  color: #999;
+  position: absolute;
+  top: 38%;
+  left: -2em;
+  font-size: 1.5em;
+}
+.prev2 :hover {
+  cursor: pointer;
+  color: black;
+}
+
+.next2 {
+  color: #999;
+  position: absolute;
+  top: 38%;
+  right: -2em;
+  font-size: 1.5em;
+}
+.next2 :hover {
+  cursor: pointer;
+  color: black;
+}
+
+
+
+
+
+
+/* EDUCATION
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 #edu-main-section{
@@ -383,25 +456,28 @@ h2{
 }
 }
 
+
+/* social button - contact us
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 #donateButton {
-  display: block; /* Hidden by default */
+  display: block; 
   position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: red; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
+  top: 20px; /* Place the button at the bottom of the page */
+  right: 50px; /* Place the button 30px from the right */
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: #FFB923; 
+  color: white; 
+  cursor: pointer; 
+  padding: 10px; 
+  border-radius: 10px; 
+  font-size: 18px; 
 }
 
 #donateButton:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
-}
+  background-color: #ffcd61; 
 
 /* social button - contact us
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -469,7 +545,7 @@ h2{
 }
 
 
-/* social button - contact us
+/* footer - contact us
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 footer {
