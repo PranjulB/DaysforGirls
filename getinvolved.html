@@ -10,34 +10,67 @@
 
   </head>
   <body>
-    <header>
-<!-- logo -->
-      <nav>
-<!-- menu icons -->
-       <ul>
-        <li class="nav-item"><a  href="index.html">Home</a></li>
 
-        <li class="nav-item"><a href="education.html">Education</a></li>
+    <div class="topnav" id="myTopnav">
+      <img id="nav-logo" src="images/DFGlogo.png" alt="DFg Logo">
+      <a href="index.html">Home</a>
+      <a href="education.html">Education</a>
+      <a href="getinvolved.html" class="active">Get Involved</a>
+      <a href="aboutus.html">About Us</a>
+      <a href="#ContactUs">Contact Us</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <button onclick="donateFunction()" id="donateButton" title="Donate Now">Donate</button>
+    </div>
 
-        <li class="nav-item"><a href="getinvolved.html">Get Involved</a></li>
+<div class="background">
+    <div id="gi-imagelinks">
+      <div class="outer" class="column">
+      <img class="imagelinks" src="images/gi1.jpg" alt="learn">
+      <div class="inner">
+      <h3 class="imagetext"><a href=>Volunteer</a></h3>
+      </div>
+      </div>
 
-        <li class="nav-item"><a href="whereweare.html">Where We Are</a></li>
+      <div class="outer" class="column">
+      <img class="imagelinks" src="images/gi2.jpg" alt="train">
+      <div class="inner">
+      <h3 class="imagetext"><a href="">Order your Kits</a></h3>
+      </div>
+      </div>
 
-        <li class="nav-item"><a>Contact Us</a></li>
+      <div class="outer" class="column">
+      <img class="imagelinks" src="images/gi3.jpg" alt="join">
+      <div class="inner">
+      <h3 class="imagetext"><a href="">Start a Club</a></h3>
+      </div>
+      </div>
+    </div>
+</div>
 
-       </ul>
-      </nav>
-    </header>
+     <div>
+
+
+
+    <div>
    <script src="script.js"></script>
   </body>
-  <footer>
-    <p>CONTACT DfG Australia:
-      Australia@daysforgirls.org
-      Call: +61 484 332397
-      Social Media: @DaysforGirlsAustralia
+<footer id="ContactUs">
+    <div class="social-btns">
+     <a class="btn facebook" href="#"><i class="fa fa-facebook"></i></a>
+     <a class="btn instagram" href="#"><i class="fa fa-instagram"></i></a>
+     <a class="btn google" href="#"><i class="fa fa-google"></i></a>
+     <a class="btn twitter" href="#"><i class="fa fa-twitter"></i></a>
+    </div>
+
+    <p>CONTACT DfG Australia: 
+      Australia@daysforgirls.org<br>
+      Call: +61 484 332397<br>
+      Social Media: @DaysforGirlsAustralia<br><br>
       
-      DfG Australia
-      PO Box 2040
+      DfG Australia<br>
+      PO Box 2040<br>
       Strathpine, QLD 4500 </p>
   </footer>
 </html>
