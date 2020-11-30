@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+
 }
 
 html {
@@ -20,12 +21,27 @@ ul {
 	list-style-type: none;
 }
 
+h2 {
+	font-size: 2em;
+	text-align: center;
+}
+
 h5 {
 	text-align: center;
 	color: #fff;
 }
 
+.figure iframe {
+	width: 100%;
+  height: 630px;
+  padding-top: 80px;
+}
 
+.monospace {
+font-family: itc-american-typewriter, serif;
+font-weight: 500;
+font-style: normal;
+}
 /* HEADER
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -33,8 +49,6 @@ h5 {
 /* Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-
-/* Add a black background color to the top navigation */
 
 .topnav {
 	background-color: #fff;
@@ -121,7 +135,7 @@ h5 {
 }
 
 #donateButton:hover {
-	background-color: #555;
+	background-color: #fcdc97;
 }
 
 
@@ -314,6 +328,10 @@ h5 {
 	background: #FFB923;
 }
 
+.black {
+	background: #000;
+}
+
 .inner {
 	position: absolute;
 	top: 50%;
@@ -418,8 +436,7 @@ h5 {
 	display: flex;
 }
 
-h1 {
-	font-size: 2em;
+#edu-main-section h1 {
 	text-align: center;
 	padding: 7% 0% 0% 0%;
 }
@@ -427,7 +444,7 @@ h1 {
 #edu-main-section p {
 	text-align: center;
 	width: 100%;
-	padding: 7%;
+	padding: 5%;
 }
 
 
@@ -462,16 +479,19 @@ h1 {
 /* EDUCATION Learn
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-#edu-learn p {
-	padding: 5%;
-	text-align: center;
+#edu-learn {
+	width: 100%;
+  text-align: center;
 }
-
+#edu-learn p  {
+ padding-top: 5%;
+}
 #learn {
 	font-size: 2em;
 	text-align: center;
 	background: #dc4a38;
-	padding: 5%;
+	padding: 3% 0%;
+  margin: 0%;
 }
 
 #eduimages {
@@ -495,12 +515,17 @@ h1 {
 	padding: 5%;
 }
 
-#edu-learn {
+#edu-learn2 {
 	width: 100%;
+  text-align: center;
 }
 
+#edu-learn2 img {
+	width: 50%;
+}
+
+
 #edu-learn2 p {
-	width: 100%;
 	padding: 5%;
 }
 
@@ -511,21 +536,16 @@ h1 {
 #edu-training {
 	background: #dc4a38;
 	color: #fff;
+  padding: 5% 0%;
 }
 
 #training {
 	font-size: 2em;
 	text-align: center;
-	padding: 5% 0% 0% 0%;
 }
 
 #edu-training {
 	width: 100%;
-}
-
-h2 {
-	font-size: 2em;
-	text-align: center;
 }
 
 #tcourses h6 {
@@ -576,20 +596,26 @@ h2 {
 	position: relative;
 	text-align: center;
 	color: white;
+  overflow: hidden;
+  background: black;
+  	margin: 5% 0%;
 }
 
 #join {
 	position: absolute;
-	top: 50%;
+	top: 45%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	font-size: 2em;
+  text-align: center;
+}
+
+#joinp {
+	font-size: 1em;
 }
 
 #edu-join img {
 	width: 100%;
-	padding: 5% 0%;
-	opacity: 0.7;
+  opacity: 0.4;
 }
 
 #individualButton {
@@ -611,7 +637,87 @@ h2 {
 #IndividualButton:hover {
 	background-color: #555;
 }
+/* Get Involved
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+#giicons {
+	display: flex;
+	justify-content: center;
+}
+
+#giicon {
+	width: 20%;
+}
+
+ #giicons img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 70%;
+  padding-top: 5%;
+}
+
+#giicons p {
+	text-align: center;
+	padding: 5%;
+}
+
+
+.gi-last-section p {
+  text-align: center;
+  padding-bottom: 5%;
+  margin: 0 10%;
+  color: white;
+}
+
+.gi-last-section img {
+  display: block;
+	margin-left: auto;
+	margin-right: auto;
+  padding-top: 5%;
+} 
+
+  .giboth {
+		color: white;
+  }
+
+#gi-last-section1 {
+	width: 100%;
+	background: #FFB923;
+  margin-top: 5%;
+}
+
+#gi-last-section2 {
+	width: 100%;
+	background: #5d989e;
+}
+
+#gi-last-section3 {
+	width: 100%;
+	background: #80425a;
+  margin-bottom: 5%;
+}
+
+/* Donate Form
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.base{
+background: white;
+border-radius: 2%;
+margin: 10%;
+}
+
+.base img{
+  padding-top:5%;
+  display: block;
+	margin-left: auto;
+	margin-right: auto;
+  width: 20%;
+}
+
+.form{
+  padding: 5%;
+}
 
 /* social buttons - contact us
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -723,24 +829,74 @@ footer {
 }
 
 @media only screen and (min-width: 1000px) {
-	.learn2-section {
-		/* display: flex; */
-		display: block;
-		clear: left;
+  
+  #edu-main-section img {
+		width: 720px;
+		height: 460%;
 	}
-	.learn2-section img {
-		width: 30%;
-		float: left;
-		/* clear: left; */
+  
+	.learn2-section1 {
+		display: flex;
 	}
+
+	.learn2-section2 {
+		display: flex;
+    flex-direction: row-reverse;
+  }
+  
 	#edu-learn2 p {
 		/* clear: right; */
 		padding-top: 20px;
 	}
-	#edu-main-section img {
-		width: 720px;
-		height: 460%;
+
+  .learn2-section1 img {
+  width: 20%;
+}
+
+.learn2-section2 img {
+  width: 20%;
+}
+
+#gi-last-section1 {
+		display: flex;
+    align-items: center;
 	}
+#gi-last-section2 {
+		display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+	}
+  #gi-last-section3 {
+		display: flex;
+    align-items: center;
+	}
+  .gi-last-section img {
+		padding: 3%;
+    height: 100%;
+    width: 100%;
+  }
+
+ .gi-last-section p {
+  padding-top: 5%;
+  margin: 0;
+ }
+
+  #gi-last-section1 p, h2  {
+		margin-right: 10%;
+    text-align: left;
+	}
+   #gi-last-section2 p, h2  {
+		margin-left: 10%;
+    text-align: right;
+	}
+  #gi-last-section3 p, h2  {
+		margin-right: 10%;
+    text-align: left;
+	}
+  #order{
+    text-align: right;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -760,9 +916,6 @@ footer {
 	.row {
 		flex-direction: column;
 	}
-	.learn2-section img {
-		width: 100%;
-	}
 	#tcourses {
 		flex-direction: column;
 	}
@@ -776,9 +929,6 @@ footer {
 	footer {
 		text-align: center;
 	}
-}
-
-@media screen and (max-width: 600px) {
 	.topnav a:not(:first-child) {
 		display: none;
 	}
@@ -789,12 +939,7 @@ footer {
 	#donateButton {
 		right: 100px;
 	}
-}
 
-
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-
-@media screen and (max-width: 600px) {
 	.topnav.responsive {
 		position: relative;
 	}
@@ -809,4 +954,12 @@ footer {
 		text-align: left;
 		clear: both;
 	}
+
+  .figure iframe {
+    height:315px;
+  }
+  #join {
+    width: 70%;
+    font-size: 0.8em;
+  }
 }
