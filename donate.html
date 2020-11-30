@@ -22,12 +22,163 @@ Providing a girl with what she needs changes everything.<br><br>
  
 Donate. Change lives. Period.<br><br></em>
       
-       <form> 
-          <label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname">
-  <label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname"><br><br>
-         <input type="submit" value="Submit">
+       <form id="donation-form"> 
+         <div id="select-an-amount">
+          <h1>Select an amount</h1>
+          <div class="flexbox">
+            <button type="button" class="w50">DONATE ONCE</button>
+            <button type="button" class="w50">DONATE MONTHLY</button>
+          </div>
+          <div class="flexbox">
+            <button type="button" class="w20">₹2,670</button>
+            <button type="button" class="w20">₹5,600</button>
+            <button type="button" class="w20">₹9,300</button>
+            <button type="button" class="w20">₹19,000</button>
+            <button type="button" class="w20">Other</button>
+          </div>
+          <div id="give-monthly" class="center-align">
+            <p>Make your gift go further. <u>Give monthly.</u></p>
+          </div>
+          <div class="pt-5 pb-5">
+            <input type="checkbox" name="" id="">
+            Dedicate my donation <b>in honour or in memory</b> of someone
+          </div>
+          <div class="pt-5 pb-5">
+            <input type="checkbox" name="" id="">
+            Would you like your <b>employer</b> to match?
+          </div>
+         </div>
+         <hr>
+         <div id="your-information">
+           <h1>Your Information</h1>
+           <div class="flexbox">
+              <div class="label-div">
+                <label>Name *</label>
+              </div>
+              <div class="input-div">
+                <div class="flexbox m-0">
+                  <input class="mr-1" type="text" name="" id="" placeholder="First Name">
+                  <input class="ml-1" type="text" name="" id="" placeholder="Last Name">
+                </div>
+                <br>
+                <input type="checkbox"> Make donation anonymous
+              </div>
+           </div>
+           <div class="flexbox">
+              <div class="label-div">
+                <label>Email *</label>
+              </div>
+              <div class="input-div">
+                <input type="email" name="" id="">
+                <br>
+                <p>Your receipt will be emailed here.</p>
+                <br>
+                <p><input type="checkbox"> Yes, please subscribe me toyour email newsletter for updates on the impact of my donation.</p>
+              </div>
+           </div>
+           <div class="flexbox">
+              <div class="label-div">
+                <label>Phone Number</label>
+              </div>
+              <div class="input-div">
+                <input type="tel" name="" id="" placeholder="">
+              </div>
+           </div>
+           <div class="flexbox">
+              <div class="label-div">
+                <label>Leave a comment</label>
+              </div>
+              <div class="input-div">
+                <textarea></textarea>
+              </div>
+           </div>
+         </div>
+         <hr>
+         <div id="payment-details">
+           <h1>Payment Details</h1>
+           <div class="flexbox">
+              <div class="label-div">
+                <label>Card Number *</label>
+              </div>
+              <div class="input-div">
+                <input type="number" name="" id="" placeholder="Card Number">
+                <br>
+                <p>or select another payment option:</p>
+                <button type="button">BANK TRANSFER</button>
+              </div>
+           </div>
+           <div class="flexbox">
+              <div class="label-div">
+                <label>Name on the card *</label>
+              </div>
+              <div class="input-div">
+                <div class="flexbox m-0">
+                  <input class="mr-1" type="text" name="" id="" placeholder="First Name">
+                  <input class="ml-1" type="text" name="" id="" placeholder="Last Name">
+                </div>
+              </div>
+           </div>
+           <div class="flexbox">
+              <div class="label-div">
+                <label>Country *</label>
+              </div>
+              <div class="input-div">
+                <select name="" id="">
+                  <option selected>India</option>
+                  <option>USA</option>
+                </select>
+              </div>
+           </div>
+           <div class="flexbox">
+              <div class="label-div">
+                <label>Address *</label>
+              </div>
+              <div class="input-div">
+                <input type="text" name="" id="">
+              </div>
+           </div>
+           <div class="flexbox">
+              <div class="label-div">
+                <label>Address 2 *</label>
+              </div>
+              <div class="input-div">
+                <input type="text" name="" id="">
+              </div>
+           </div>
+           <div class="flexbox">
+              <div class="label-div">
+                <label>City *</label>
+              </div>
+              <div class="input-div">
+                <input type="text" name="" id="">
+              </div>
+           </div>
+           <div class="flexbox">
+              <div class="label-div">
+                <label>Region & Postal Code *</label>
+              </div>
+              <div class="input-div">
+                <div class="flexbox m-0">
+                  <input class="mr-1" type="text" name="" id="" placeholder="State, Province or District">
+                  <input class="ml-1" type="text" name="" id="" placeholder="Postal Code">
+                </div>
+              </div>
+           </div>
+         </div>
+         <div id="give-now">
+           <p>By clicking GIVE NOW!, I agree to the <u>Terms of Service</u> and <u>Privacy Policy</u></p>
+           <br>
+             <p><input type="checkbox"> I’d like to cover the fees associated with my donation so more of my donation goes directly to Days for Girls International.</p>
+           <div class="flexbox justify-end">
+             <div>
+               <button>GIVE NOW!</button>
+              </div>
+             <div>
+               <p style="margin: 0">Amount:</p>
+               <h3>₹9,783.60<small> INR</small></h3>
+             </div>
+           </div>
+         </div>
          </form>
 </p>
     

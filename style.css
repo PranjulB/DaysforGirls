@@ -2,7 +2,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-
 }
 
 html {
@@ -22,7 +21,6 @@ ul {
 }
 
 h2 {
-	font-size: 2em;
 	text-align: center;
 }
 
@@ -33,22 +31,29 @@ h5 {
 
 .figure iframe {
 	width: 100%;
-  height: 630px;
-  padding-top: 80px;
+	height: 630px;
+	padding-top: 80px;
 }
 
-.monospace {
-font-family: itc-american-typewriter, serif;
-font-weight: 500;
-font-style: normal;
+.monospacel {
+	font-family: itc-american-typewriter, serif;
+	font-weight: 300;
+	font-style: normal;
 }
+
+.monospacem {
+	font-family: itc-american-typewriter, serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+
 /* HEADER
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 
 /* Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 
 .topnav {
 	background-color: #fff;
@@ -448,50 +453,24 @@ h5 {
 }
 
 
-/* EDUCATION Imagelinks
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-
-/* #edu-imagelinks{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-#edu-imagelinks .outer {
-  width: 80%;
-  margin: 10% 10%;
-  position: relative;
-}
-
-#edu-imagelinks .imagelinks {
-  width: 100%;
-}
-
-#edu-imagelinks .inner{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-} */
-
-
 /* EDUCATION Learn
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 #edu-learn {
 	width: 100%;
-  text-align: center;
+	text-align: center;
 }
-#edu-learn p  {
- padding-top: 5%;
+
+#edu-learn p {
+	padding-top: 5%;
 }
+
 #learn {
 	font-size: 2em;
 	text-align: center;
 	background: #dc4a38;
 	padding: 3% 0%;
-  margin: 0%;
+	margin: 0%;
 }
 
 #eduimages {
@@ -517,13 +496,12 @@ h5 {
 
 #edu-learn2 {
 	width: 100%;
-  text-align: center;
+	text-align: center;
 }
 
 #edu-learn2 img {
 	width: 50%;
 }
-
 
 #edu-learn2 p {
 	padding: 5%;
@@ -536,7 +514,7 @@ h5 {
 #edu-training {
 	background: #dc4a38;
 	color: #fff;
-  padding: 5% 0%;
+	padding: 5% 0%;
 }
 
 #training {
@@ -559,7 +537,6 @@ h5 {
 }
 
 #edu-training .tbox {
-	/* height: 100%; */
 	padding: 2%;
 	background: #a3a3a3;
 	width: 18%;
@@ -596,9 +573,9 @@ h5 {
 	position: relative;
 	text-align: center;
 	color: white;
-  overflow: hidden;
-  background: black;
-  	margin: 5% 0%;
+	overflow: hidden;
+	background: black;
+	margin: 5% 0%;
 }
 
 #join {
@@ -606,7 +583,7 @@ h5 {
 	top: 45%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-  text-align: center;
+	text-align: center;
 }
 
 #joinp {
@@ -615,28 +592,10 @@ h5 {
 
 #edu-join img {
 	width: 100%;
-  opacity: 0.4;
+	opacity: 0.4;
 }
 
-#individualButton {
-	display: block;
-	position: fixed;
-	top: 20px;
-	right: 30px;
-	z-index: 99;
-	border: none;
-	outline: none;
-	background-color: #FFB923;
-	color: white;
-	cursor: pointer;
-	padding: 15px;
-	border-radius: 10px;
-	font-size: 18px;
-}
 
-#IndividualButton:hover {
-	background-color: #555;
-}
 /* Get Involved
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -649,12 +608,12 @@ h5 {
 	width: 20%;
 }
 
- #giicons img {
+#giicons img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	height: 70%;
-  padding-top: 5%;
+	padding-top: 5%;
 }
 
 #giicons p {
@@ -662,29 +621,28 @@ h5 {
 	padding: 5%;
 }
 
-
 .gi-last-section p {
-  text-align: center;
-  padding-bottom: 5%;
-  margin: 0 10%;
-  color: white;
+	text-align: center;
+	padding-bottom: 5%;
+	margin: 0 10%;
+	color: white;
 }
 
 .gi-last-section img {
-  display: block;
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
-  padding-top: 5%;
-} 
+	padding-top: 5%;
+}
 
-  .giboth {
-		color: white;
-  }
+.giboth {
+	color: white;
+}
 
 #gi-last-section1 {
 	width: 100%;
 	background: #FFB923;
-  margin-top: 5%;
+	margin-top: 5%;
 }
 
 #gi-last-section2 {
@@ -695,29 +653,180 @@ h5 {
 #gi-last-section3 {
 	width: 100%;
 	background: #80425a;
-  margin-bottom: 5%;
+	margin-bottom: 5%;
 }
+
 
 /* Donate Form
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.base{
-background: white;
-border-radius: 2%;
-margin: 10%;
+.base {
+	background: white;
+	border-radius: 1%;
+	margin: 10%;
 }
 
-.base img{
-  padding-top:5%;
-  display: block;
+.base img {
+	padding-top: 5%;
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
-  width: 20%;
+	width: 20%;
 }
 
-.form{
-  padding: 5%;
+.form {
+	padding: 5%;
 }
+
+
+/* Donation Form Styling */
+
+.flexbox {
+	display: flex;
+	margin: 1%;
+}
+
+h1 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#select-an-amount button {
+	background-color: white;
+	padding: 12px 0;
+	border: none;
+	box-shadow: 1px 1px 5px #aaa;
+	cursor: pointer;
+}
+
+#select-an-amount button:hover,
+#select-an-amount button:focus {
+	background-color: orange;
+	color: white;
+}
+
+#give-monthly {
+	background-color: #ffe2b0;
+	padding: 16px;
+}
+
+.label-div {
+	width: 20%;
+}
+
+#donation-form input[type=text],
+#donation-form input[type=tel],
+#donation-form input[type=email] {
+	padding: 12px 6px;
+	width: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+#donation-form textarea {
+	padding: 12px 6px;
+	width: 100%;
+}
+
+#donation-form select,
+#donation-form input[type=number] {
+	padding: 12px 6px;
+	width: 50%;
+	margin-right: 50%;
+}
+
+#donation-form p {
+	margin: 8px 0;
+}
+
+#payment-details button {
+	border: 2px solid orange;
+	background-color: white;
+	color: orange;
+	padding: 8px 16px;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+#payment-details button:hover {
+	color: white;
+	background-color: orange;
+}
+
+.input-div {
+	width: 80%;
+}
+
+.mr-1 {
+	margin-right: 1%;
+}
+
+.ml-1 {
+	margin-right: 1%;
+}
+
+.space-between {
+	justify-content: space-between;
+}
+
+.w50 {
+	width: 50%;
+}
+
+.w20 {
+	width: 18%;
+}
+
+.w48 {
+	width: 48%;
+}
+
+.pt-5 {
+	padding-top: 16px;
+}
+
+.pb-5 {
+	padding-bottom: 16px;
+}
+
+.m-0 {
+	margin: 0;
+}
+
+.center-align {
+	text-align: center;
+}
+
+#select-an-amount .flexbox {
+	justify-content: space-between;
+}
+
+#give-now {
+	padding: 0 15%;
+}
+
+#give-now button {
+	background-color: orange;
+	color: white;
+	padding: 16px 32px;
+	border: none;
+	margin-right: 10px;
+	margin-top: 15%;
+	cursor: pointer;
+}
+
+#give-now h3 {
+	margin: 0;
+}
+
+.justify-end {
+	align-items: flex-end;
+}
+
 
 /* social buttons - contact us
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -829,74 +938,67 @@ footer {
 }
 
 @media only screen and (min-width: 1000px) {
-  
-  #edu-main-section img {
+	#edu-main-section img {
 		width: 720px;
 		height: 460%;
 	}
-  
 	.learn2-section1 {
 		display: flex;
 	}
-
 	.learn2-section2 {
 		display: flex;
-    flex-direction: row-reverse;
-  }
-  
+		flex-direction: row-reverse;
+	}
 	#edu-learn2 p {
 		/* clear: right; */
 		padding-top: 20px;
 	}
-
-  .learn2-section1 img {
-  width: 20%;
-}
-
-.learn2-section2 img {
-  width: 20%;
-}
-
-#gi-last-section1 {
-		display: flex;
-    align-items: center;
+	.learn2-section1 img {
+		width: 20%;
 	}
-#gi-last-section2 {
-		display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    
+	.learn2-section2 img {
+		width: 20%;
 	}
-  #gi-last-section3 {
+	#gi-last-section1 {
 		display: flex;
-    align-items: center;
+		align-items: center;
 	}
-  .gi-last-section img {
+	#gi-last-section2 {
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: center;
+	}
+	#gi-last-section3 {
+		display: flex;
+		align-items: center;
+	}
+	.gi-last-section img {
 		padding: 3%;
-    height: 100%;
-    width: 100%;
-  }
-
- .gi-last-section p {
-  padding-top: 5%;
-  margin: 0;
- }
-
-  #gi-last-section1 p, h2  {
-		margin-right: 10%;
-    text-align: left;
+		height: 100%;
+		width: 100%;
 	}
-   #gi-last-section2 p, h2  {
+	.gi-last-section p {
+		padding-top: 5%;
+		margin: 0;
+	}
+	#gi-last-section1 p,
+	h2 {
+		margin-right: 10%;
+		text-align: left;
+	}
+	#gi-last-section2 p,
+	h2 {
 		margin-left: 10%;
-    text-align: right;
+		text-align: right;
 	}
-  #gi-last-section3 p, h2  {
+	#gi-last-section3 p,
+	h2 {
 		margin-right: 10%;
-    text-align: left;
+		text-align: left;
 	}
-  #order{
-    text-align: right;
-  }
+	#order {
+		text-align: right;
+	}
 }
 
 @media only screen and (max-width: 600px) {
@@ -939,7 +1041,6 @@ footer {
 	#donateButton {
 		right: 100px;
 	}
-
 	.topnav.responsive {
 		position: relative;
 	}
@@ -954,12 +1055,11 @@ footer {
 		text-align: left;
 		clear: both;
 	}
-
-  .figure iframe {
-    height:315px;
-  }
-  #join {
-    width: 70%;
-    font-size: 0.8em;
-  }
+	.figure iframe {
+		height: 315px;
+	}
+	#join {
+		width: 70%;
+		font-size: 0.8em;
+	}
 }
